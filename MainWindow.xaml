@@ -8,17 +8,18 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="click" Content="Vypočítat" HorizontalAlignment="Left" Height="36" Margin="186,181,0,0" VerticalAlignment="Top" Width="396" Click="click_Click" FontSize="20"/>
-        <TextBox x:Name="hodnota" HorizontalAlignment="Left" Height="36" Margin="186,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" TextChanged="hodnota_TextChanged"/>
-        <ComboBox x:Name="volba" HorizontalAlignment="Left" Height="36" Margin="302,128,0,0" VerticalAlignment="Top" Width="82" SelectionChanged="volba_SelectionChanged">
+        <TextBox x:Name="hodnota" HorizontalAlignment="Left" Height="36" Margin="186,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" TextChanged="hodnota_TextChanged" FontSize="20"/>
+        <ComboBox x:Name="volba" HorizontalAlignment="Left" Height="36" Margin="302,128,0,0" VerticalAlignment="Top" Width="82" SelectionChanged="volba_SelectionChanged" FontSize="20">
             <ComboBoxItem Content="d"/>
             <ComboBoxItem Content="r"/>
         </ComboBox>
-        <TextBox x:Name="obvod" HorizontalAlignment="Left" Height="36" Margin="400,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
-        <TextBox x:Name="obsah" HorizontalAlignment="Left" Height="36" Margin="497,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="obvod" HorizontalAlignment="Left" Height="36" Margin="400,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" FontSize="20"/>
+        <TextBox x:Name="obsah" HorizontalAlignment="Left" Height="36" Margin="497,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" FontSize="20"/>
         <Label Content="Obvod" HorizontalAlignment="Left" Height="34" Margin="405,94,0,0" VerticalAlignment="Top" Width="92" FontSize="20"/>
         <Label Content="Obsah" HorizontalAlignment="Left" Height="52" Margin="502,94,0,0" VerticalAlignment="Top" Width="80" FontSize="20"/>
         <Label Content="Zde zadat číslo" HorizontalAlignment="Left" Height="46" Margin="141,94,0,0" VerticalAlignment="Top" Width="156" FontSize="20"/>
         <Label Content="r nebo d" HorizontalAlignment="Left" Height="39" Margin="302,94,0,0" VerticalAlignment="Top" Width="87" FontSize="20"/>
+        <TextBox x:Name="Error" HorizontalAlignment="Left" Height="44" Margin="186,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" FontSize="20"/>
 
     </Grid>
 </Window>

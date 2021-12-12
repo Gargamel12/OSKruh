@@ -37,8 +37,7 @@ namespace OSKruh
             double hodnotaText = Convert.ToDouble(hodnota.Text);
             if (hodnotaText <= 0)
             {
-                obsah.Text = "Error 404";
-                obvod.Text = "Error 404";
+                Error.Text = "Zadat číslo větší jak 0";
             }
                     
             else if (volba.Text == "r")
